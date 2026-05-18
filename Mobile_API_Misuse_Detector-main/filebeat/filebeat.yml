@@ -1,0 +1,10 @@
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /logs/security.log
+
+output.logstash:
+  hosts: ["logstash:5044"]
+
+setup.ilm.enabled: false
