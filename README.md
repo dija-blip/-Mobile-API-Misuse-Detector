@@ -112,18 +112,9 @@ open http://localhost:8000/docs
 └── requirements.txt
 ```
 
-## Running Tests
 
-```bash
-pip install -r requirements.txt
-pytest tests/ -v
-```
 
-## Supported Log Formats
 
-- **Nginx** — Combined log format
-- **Express.js** — Winston JSON format
-- **Spring Boot** — Default log pattern
 
 ## Dashboard Pages
 
@@ -136,4 +127,3 @@ pytest tests/ -v
 - **Devices** — Device/platform/UA analytics
 - **Logs** — Raw log browser with pagination
 - **Recommendations** — Automated defensive advice
-- **Import Logs** — Drag-and-drop log file upload
